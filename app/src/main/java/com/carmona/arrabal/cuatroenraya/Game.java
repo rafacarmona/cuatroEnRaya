@@ -1,5 +1,7 @@
 package com.carmona.arrabal.cuatroenraya;
 
+import android.widget.Toast;
+
 /**
  * Created by Rafa Carmona on 16/11/2017.
  */
@@ -178,8 +180,8 @@ public class Game {
     }
 
     //getters y setters
-    public void setTurno(int jugador) {
-        this.turno = jugador;
+    public void setTurno(int turno) {
+        this.turno = turno;
     }
 
     public int getTurno() {

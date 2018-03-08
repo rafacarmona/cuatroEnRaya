@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#ffffff"
+    android:background="#9c9c9c"
     android:paddingBottom="20dp"
     android:gravity="bottom"
     tools:context="com.carmona.arrabal.cuatroenraya.MainActivity">
@@ -13,7 +13,6 @@
    <LinearLayout
         android:layout_width="match_parent"
         android:gravity="center"
-        android:background="#ffffff"
         android:layout_height="wrap_content">
 
       <ImageButton
@@ -27,7 +26,6 @@
           android:id="@+id/f0c1Button"
           android:layout_width="50dp"
           android:layout_height="50dp"
-         
           android:background="@drawable/shape_ring"
           android:onClick="onClick" />
 
@@ -35,7 +33,6 @@
           android:id="@+id/f0c2Button"
           android:layout_width="50dp"
           android:layout_height="50dp"
-         
           android:background="@drawable/shape_ring"
           android:onClick="onClick" />
 
@@ -43,7 +40,6 @@
           android:id="@+id/f0c3Button"
           android:layout_width="50dp"
           android:layout_height="50dp"
-         
           android:background="@drawable/shape_ring"
           android:onClick="onClick" />
 
@@ -51,7 +47,6 @@
           android:id="@+id/f0c4Button"
           android:layout_width="50dp"
           android:layout_height="50dp"
-         
           android:background="@drawable/shape_ring"
           android:onClick="onClick" />
 
@@ -59,7 +54,6 @@
           android:id="@+id/f0c5Button"
           android:layout_width="50dp"
           android:layout_height="50dp"
-         
           android:background="@drawable/shape_ring"
           android:onClick="onClick" />
 
@@ -67,14 +61,12 @@
           android:id="@+id/f0c6Button"
           android:layout_width="50dp"
           android:layout_height="50dp"
-          android:layout_marginLeft="5dp"
           android:background="@drawable/shape_ring"
           android:onClick="onClick" />
     </LinearLayout>
    <LinearLayout
        android:layout_width="match_parent"
        android:gravity="center"
-       android:background="#ffffff"
        android:layout_height="wrap_content">
 
       <ImageButton
@@ -113,7 +105,6 @@
            android:id="@+id/f1c4Button"
            android:layout_width="50dp"
            android:layout_height="50dp"
-          
            android:background="@drawable/shape_ring"
            android:onClick="onClick" />
 
@@ -129,14 +120,13 @@
            android:id="@+id/f1c6Button"
            android:layout_width="50dp"
            android:layout_height="50dp"
-           android:layout_marginLeft="5dp"
            android:background="@drawable/shape_ring"
            android:onClick="onClick" />
    </LinearLayout>
    <LinearLayout
        android:layout_width="match_parent"
        android:gravity="center"
-       android:background="#ffffff"
+       
        android:layout_height="wrap_content">
 
       <ImageButton
@@ -191,14 +181,13 @@
            android:id="@+id/f2c6Button"
            android:layout_width="50dp"
            android:layout_height="50dp"
-           android:layout_marginLeft="5dp"
            android:background="@drawable/shape_ring"
            android:onClick="onClick" />
    </LinearLayout>
    <LinearLayout
        android:layout_width="match_parent"
        android:gravity="center"
-       android:background="#ffffff"
+
        android:layout_height="wrap_content">
 
       <ImageButton
@@ -253,21 +242,18 @@
            android:id="@+id/f3c6Button"
            android:layout_width="50dp"
            android:layout_height="50dp"
-           android:layout_marginLeft="5dp"
            android:background="@drawable/shape_ring"
            android:onClick="onClick" />
    </LinearLayout>
    <LinearLayout
        android:layout_width="match_parent"
        android:gravity="center"
-       android:background="#ffffff"
        android:layout_height="wrap_content">
 
       <ImageButton
           android:id="@+id/f4c0Button"
           android:layout_width="50dp"
           android:layout_height="50dp"
-         
           android:background="@drawable/shape_ring"
           android:onClick="onClick" />
 
@@ -315,14 +301,12 @@
            android:id="@+id/f4c6Button"
            android:layout_width="50dp"
            android:layout_height="50dp"
-           android:layout_marginLeft="5dp"
            android:background="@drawable/shape_ring"
            android:onClick="onClick" />
    </LinearLayout>
    <LinearLayout
        android:layout_width="match_parent"
        android:gravity="center"
-       android:background="#ffffff"
        android:layout_height="wrap_content">
 
       <ImageButton
@@ -336,14 +320,12 @@
            android:id="@+id/f5c1Button"
            android:layout_width="50dp"
            android:layout_height="50dp"
-          
            android:background="@drawable/shape_ring"
            android:onClick="onClick" />
 
       <ImageButton
           android:id="@+id/f5c2Button"
           android:layout_width="50dp"
-         
           android:layout_height="50dp"
           android:background="@drawable/shape_ring"
           android:onClick="onClick"/>
@@ -352,7 +334,6 @@
            android:id="@+id/f5c3Button"
            android:layout_width="50dp"
            android:layout_height="50dp"
-          
            android:background="@drawable/shape_ring"
            android:onClick="onClick" />
 
@@ -375,7 +356,6 @@
       <ImageButton
           android:id="@+id/f5c6Button"
           android:layout_width="50dp"
-          android:layout_marginLeft="5dp"
           android:layout_height="50dp"
           android:background="@drawable/shape_ring"
           android:onClick="onClick"/>
@@ -386,4 +366,4 @@
 
 
 
-</LinearLayout>
+</TableLayout>

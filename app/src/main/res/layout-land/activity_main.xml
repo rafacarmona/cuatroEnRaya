@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
+    android:background="#9c9c9c"
     android:orientation="vertical"
-    android:paddingBottom="20dp"
+    android:gravity="center_vertical"
     tools:context="com.carmona.arrabal.cuatroenraya.MainActivity">
 
     <LinearLayout
@@ -15,60 +15,60 @@
         android:layout_gravity="left"
         android:gravity="left"
         android:orientation="horizontal"
-        android:background="#ffffff">
+        android:background="#9c9c9c">
 
         <ImageButton
             android:id="@+id/f0c0Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f0c1Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f0c2Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f0c3Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f0c4Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f0c5Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f0c6Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="5dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+           
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
     </LinearLayout>
@@ -76,64 +76,64 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ffffff"
+        android:background="#9c9c9c"
         android:layout_gravity="left"
         android:gravity="left"
         android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/f1c0Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f1c1Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f1c2Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f1c3Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f1c4Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f1c5Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f1c6Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="5dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+           
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
     </LinearLayout>
@@ -141,64 +141,64 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ffffff"
+        android:background="#9c9c9c"
         android:layout_gravity="left"
         android:gravity="left"
         android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/f2c0Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f2c1Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f2c2Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f2c3Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f2c4Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f2c5Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f2c6Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="5dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+           
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
     </LinearLayout>
@@ -206,64 +206,64 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ffffff"
+        android:background="#9c9c9c"
         android:layout_gravity="left"
         android:gravity="left"
         android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/f3c0Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f3c1Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f3c2Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f3c3Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f3c4Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f3c5Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f3c6Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="5dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+           
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
     </LinearLayout>
@@ -271,64 +271,63 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ffffff"
+        android:background="#9c9c9c"
         android:layout_gravity="left"
         android:gravity="left"
         android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/f4c0Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f4c1Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f4c2Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f4c3Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f4c4Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f4c5Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
 
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f4c6Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="5dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
     </LinearLayout>
@@ -336,58 +335,58 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#ffffff"
+        android:background="#9c9c9c"
         android:layout_gravity="left"
         android:gravity="left"
         android:orientation="horizontal">
 
         <ImageButton
             android:id="@+id/f5c0Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f5c1Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f5c2Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f5c3Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f5c4Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f5c5Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
 
         <ImageButton
             android:id="@+id/f5c6Button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginLeft="5dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+           
             android:background="@drawable/shape_ring"
             android:onClick="onClick" />
     </LinearLayout>

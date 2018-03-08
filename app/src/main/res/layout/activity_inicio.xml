@@ -4,11 +4,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.carmona.arrabal.cuatroenraya.Inicio">
 
-    <ImageButton
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/imagen"
-        app:srcCompat="@mipmap/conecta4" />
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/conecta4" />
+
+        <!--Button
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#5C6BC0"
+            android:textColor="#fff"
+            android:id="@+id/botonJugarVsIa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/playVsIa"/ -->
+
+        <Button
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#5C6BC0"
+            android:textColor="#fff"
+            android:id="@+id/botonJugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/play"/>
+        <Button
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#5C6BC0"
+            android:textColor="#fff"
+            android:id="@+id/botonSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"/>
+        <Button
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#5C6BC0"
+            android:textColor="#fff"
+            android:id="@+id/botonAboutUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutUs"/>
+        <Button
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#5C6BC0"
+            android:textColor="#fff"
+            android:id="@+id/botonExit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exit"/>
 </LinearLayout>

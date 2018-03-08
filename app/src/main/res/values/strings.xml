@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">cuatroEnRaya</string>
+    <string name="app_name">conecta4</string>
+    <string name="aboutUs">Acerca de</string>
+    <string name="playVsIa">Jugar contra la I.A.</string>
+    <string name="playOnline">Jugar online</string>
+    <string name="play">Jugar</string>
+    <string name="settings">Configuración</string>
+    <string name="exit">Salir</string>
+    <string name="playerName">Nombre del jugador</string>
+    <string name="music">Música</string>
+    <string name="namePlayerSummary">Pulsa para escribir le nombre del jugador</string>
+    <string name="musicSummary">Apaga/Enciende la música</string>
+    <string name="playerStart">Jugador que empieza</string>
+    <string name="title_activity_interfaz_online">InterfazOnline</string>
+    <string name="title_activity_int_online">IntOnline</string>
 </resources>
